@@ -79,3 +79,31 @@ hr {
   padding-left: 1rem;
   margin-left: 0.5rem;
 }
+
+
+ol {
+  counter-reset: section; /* Initialize counter */
+  list-style: none; /* Remove default numbering */
+  padding-left: 0;
+}
+
+li {
+  counter-increment: section;
+  padding-left: 1.5em;
+  position: relative;
+}
+
+li:not(.category)::before {
+  content: counter(section) ". ";
+  position: absolute;
+  left: 0;
+}
+
+li.category {
+  counter-reset: section; /* Reset counter after category */
+  font-weight: bold;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 25px;
+}
+
