@@ -39,6 +39,7 @@ body > main > ol > li > a {
   display: flex;
   justify-content: center;
   gap: 2rem;
+  margin-top: -10rem;
 } 
 
 .content {
