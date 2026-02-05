@@ -27,7 +27,7 @@ body {
   background-attachment: fixed;
   background-size: 100% 100%;
   position: relative;
-  overflow: auto;
+  overflow: visible;
 }
 
 body > main > ol > li > a {
