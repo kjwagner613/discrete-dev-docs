@@ -21,8 +21,8 @@ body {
   font-size: 1.2rem;
   line-height: 1.6;
   color: var(--color-text);
-       background: radial-gradient(circle at 20% 20%, rgba(78, 16, 221, 0.65), rgba(44, 32, 77, 0) 45%),
-        linear-gradient(160deg, #20426d 0%, #7f8a94 48%, #18a35e 100%);
+       background: radial-gradient(circle at 20% 20%, rgba(142, 120, 192, 0.65), rgba(44, 32, 77, 0) 45%),
+        linear-gradient(160deg, #20426d 0%, #7f8a94 48%, #b8596d 100%);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
