@@ -35,6 +35,11 @@ body > main > ol > li > a {
 
 }
 
+.col-container {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+} 
 
 .content {
   /* max-width: var(--max-width); */
@@ -44,6 +49,11 @@ body > main > ol > li > a {
   margin-left: 0 auto;
   /* transform: translateX(-50%); */
 }
+
+  .no-bullet {
+    list-style-type: none;
+  }
+
 
 h1 {
   font-size: 2rem;
